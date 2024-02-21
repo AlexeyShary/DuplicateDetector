@@ -1,0 +1,21 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Sharyy.Aleksey\dev\DuplicateDetector\out\artifacts\DuplicateDetector_jar\DuplicateDetector.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Sharyy.Aleksey\dev\DuplicateDetector\out\artifacts\DuplicateDetector_jar\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Amazon Corretto\jdk17.0.8_8
+Substitute:	PATH = C:\Python\Scripts\;C:\Python\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files\Amazon Corretto\jdk11.0.17_8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\WireGuard\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Sharyy.Aleksey\AppData\Local\Programs\Python\Launcher\;C:\tizen-studio\tools\ide\bin;C:\Users\Sharyy.Aleksey\AppData\Local\Microsoft\WindowsApps;C:\Users\Sharyy.Aleksey\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Nmap;C:\Users\Sharyy.Aleksey\.dotnet\tools;C:\ffmpeg\bin;
+JRE paths:	C:\Program Files\Amazon Corretto\jdk17.0.8_8;C:\Python\Scripts\;C:\Python\;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin;C:\Program Files\PlasticSCM5\server;C:\Program Files\PlasticSCM5\client;C:\Program Files\Amazon Corretto\jdk11.0.17_8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\WireGuard\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Sharyy.Aleksey\AppData\Local\Programs\Python\Launcher\;C:\tizen-studio\tools\ide\bin;C:\Users\Sharyy.Aleksey\AppData\Local\Microsoft\WindowsApps;C:\Users\Sharyy.Aleksey\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Nmap;C:\Users\Sharyy.Aleksey\.dotnet\tools;C:\ffmpeg\bin;
+Check launcher:	C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin\javaw.exe (OK)
+Warning:	formatJavaVersion() too many parts added.
+Version string: 1.017.000_008 / 64-Bit (OK)
+Launcher:	C:\Program Files\Amazon Corretto\jdk17.0.8_8\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Sharyy.Aleksey\dev\DuplicateDetector\out\artifacts\DuplicateDetector_jar\DuplicateDetector.exe"
+Args length:	110/32768 chars
+Exit code:	0

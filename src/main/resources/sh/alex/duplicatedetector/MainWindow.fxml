@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="sh.alex.duplicatedetector.MainController"
+      prefHeight="800.0" prefWidth="800.0" spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+
+    <children>
+        <!-- Директории -->
+        <VBox spacing="5" prefHeight="100">
+            <Label text="Директории:"/>
+            <ListView fx:id="directoryListView" prefHeight="80" maxHeight="80"/>
+        </VBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Button text="Добавить" onAction="#addDirectory"/>
+            <Button text="Удалить" onAction="#removeDirectory"/>
+        </HBox>
+
+        <!-- Расширения файлов -->
+        <VBox spacing="5" prefHeight="100">
+            <Label text="Расширения файлов:"/>
+            <ListView fx:id="extensionListView" prefHeight="80" maxHeight="80"/>
+        </VBox>
+
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <Button text="Добавить" onAction="#addExtension"/>
+            <Button text="Удалить" onAction="#removeExtension"/>
+        </HBox>
+
+        <!-- Кнопка Обработать -->
+        <Button text="Обработать" onAction="#processFiles"/>
+
+        <!-- Область сообщений -->
+        <VBox VBox.vgrow="ALWAYS" spacing="5">
+            <Label text="Сообщения:"/>
+            <TextArea fx:id="messageTextArea" prefHeight="200.0" editable="false" VBox.vgrow="ALWAYS"/>
+        </VBox>
+    </children>
+</VBox>
